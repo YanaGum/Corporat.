@@ -1,0 +1,41 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-try{
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px !important;
+    letter-spacing: .15em;
+}
+
+.header{
+    background: url('https://images.unsplash.com/photo-1586397147675-6c9bbfdf5420?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80') no-repeat center;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.little-text{
+    color: rgb(51, 50, 50);
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.play-icon{
+    color: rgb(65, 65, 65) !important;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.text-header{
+    font-weight: 300;
+    font-size: 65px;
+    color: rgb(25, 44, 44);
+    padding-top: 17%;
+    letter-spacing: .05em;
+}
