@@ -11,6 +11,11 @@ body{
     letter-spacing: .15em;
 }
 
+.col-lg-6{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .header{
     background: url('https://images.unsplash.com/photo-1586397147675-6c9bbfdf5420?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80') no-repeat center;
     z-index: 1000;
@@ -40,6 +45,11 @@ body{
     margin-bottom: 10px;
 }
 
+.p-text{
+    padding-top: 20px;
+    color: rgb(105, 120, 134);
+}
+
 .text-header{
     font-weight: 300;
     font-size: 65px;
@@ -52,9 +62,19 @@ body{
     text-transform: uppercase;
     color: Crimson;
     padding-top: 30%;
-    
+    line-height: .2;
 }
 
+.text-titlle{
+    font-weight: 400; 
+    color: black;
+    font-size: 40px;
+}
+
+.text-features{
+    color: rgb(25, 44, 44);
+ 
+}
 
 .triangle-bottomright {
 	width: 0;
@@ -64,7 +84,14 @@ body{
     position: relative;
     zoom: 5;
     
-   
+}
+
+.triangle-bottomleft {
+	border-bottom: 100px solid rgba(220, 20, 60, 0.6); 
+    border-right: 100px solid transparent;	
+    position: absolute;
+    zoom: 7;
+    margin-top: -15px;
 }
 
 @media (max-width: 480px){
@@ -72,7 +99,10 @@ body{
         font-size: 50px;
         letter-spacing: 0em;
     }
+
+    .triangle-bottomleft{
+        zoom: 3;
+    }
+
 }
- .{
-     
- }
+ 
