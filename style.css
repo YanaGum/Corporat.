@@ -1,5 +1,7 @@
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0ex;
+    padding: 0ex;
 }
 
 .btn-try{
@@ -51,6 +53,18 @@ body{
     color: Crimson;
     padding-top: 30%;
     
+}
+
+
+.triangle-bottomright {
+	width: 0;
+	height: 132px;
+	border-bottom: 100px solid  rgba(220, 20, 60, 0.6); 
+    border-left: 100px solid transparent;
+    position: relative;
+    zoom: 5;
+    
+   
 }
 
 @media (max-width: 480px){
