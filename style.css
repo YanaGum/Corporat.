@@ -26,10 +26,9 @@ body{
     overflow: hidden;
 }
 
-.img-content{
-    margin-right: 0!important;
-    padding-right: 0!important;
-
+.foto-men{
+    height: 660px;
+    position:absolute;
 }
 
 .little-text{
@@ -103,6 +102,9 @@ body{
     .triangle-bottomleft{
         zoom: 3;
     }
-
+ 
+    .foto-men{
+       zoom: -3;
+    }
 }
  
