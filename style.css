@@ -1,3 +1,30 @@
+.about{
+    background-image: url('https://i.imgur.com/dirA5BG.jpg');
+ 
+}
+
+.about-text{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 18px;
+}
+
+.about-pink{
+    color: Crimson;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 0.15em;
+}
+
+.about-p{
+    color: white;
+    font-weight: 300;
+    font: italic;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0ex;
@@ -24,6 +51,11 @@ body{
     height: 100vh;
     background-size: cover;
     overflow: hidden;
+}
+
+.img-about{
+    width: 100px;
+    height: 100px;
 }
 
 .foto-men{
@@ -89,7 +121,7 @@ body{
 	border-bottom: 100px solid rgba(220, 20, 60, 0.6); 
     border-right: 100px solid transparent;	
     position: absolute;
-    zoom: 7;
+    zoom: 6.65;
     margin-top: -15px;
 }
 
@@ -106,5 +138,9 @@ body{
     .foto-men{
        zoom: -3;
     }
+
+    .headphone{
+        width: 1%;
 }
+
   
