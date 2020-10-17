@@ -101,8 +101,6 @@ body{
 
 .form-white{
     background-color: Gainsboro!important;
-   
-
 }
 
 .little-text{
@@ -191,10 +189,15 @@ body{
 
     .d8{
        zoom: .1;
+       margin-right: 80px !important;
     }
 
     .form-email{
         zoom: .4;
+    }
+
+    .form-control {
+        width: auto !important;
     }
 
 }
