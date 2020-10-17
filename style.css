@@ -38,9 +38,27 @@ body{
     letter-spacing: .15em;
 }
 
+.btn-success {
+    color: #fff;
+    background-color: Crimson !important;
+    border-color: Crimson !important;
+} 
 .col-lg-6{
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+
+.col-lg-3{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.d8 {
+    width: 0; 
+    height: 100px;
+    border-top: 100px solid rgba(220, 20, 60, 0.6);
+    border-left: 100px solid transparent;
+    zoom: 2;
 }
 
 .header{
@@ -54,13 +72,37 @@ body{
 }
 
 .img-about{
-    width: 100px;
+    width: 130px;
     height: 100px;
 }
 
 .foto-men{
     height: 660px;
     position:absolute;
+}
+
+.form-control-lg {
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    color: white !important;
+    font-size: unset;
+    font-size: medium !important;
+}
+
+.form-control {
+    background-color:  rgba(45, 80, 161, 0.527) !important;
+    
+}
+
+.font-pink{
+    background-color: Crimson !important;
+    text-align: center;
+}
+
+.form-white{
+    background-color: Gainsboro!important;
+   
+
 }
 
 .little-text{
@@ -141,6 +183,18 @@ body{
 
     .headphone{
         width: 1%;
-}
+    }
 
-  
+    .img-center{
+        zoom: .3;
+    }
+
+    .d8{
+       zoom: .1;
+    }
+
+    .form-email{
+        zoom: .4;
+    }
+
+}
