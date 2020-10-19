@@ -1,6 +1,6 @@
 .about{
     background-image: url('https://i.imgur.com/dirA5BG.jpg');
- 
+
 }
 
 .about-text{
@@ -73,7 +73,7 @@ body{
 
 .img-about{
     width: 130px;
-    height: 100px;
+    height: 125px;
 }
 
 .foto-men{
@@ -87,6 +87,7 @@ body{
     color: white !important;
     font-size: unset;
     font-size: medium !important;
+    margin-inline-start: 80px;
 }
 
 .form-control {
@@ -109,6 +110,7 @@ body{
     font-weight: 100;
     margin-top: 17px;
 }
+
 
 .play-icon{
     color: rgb(65, 65, 65) !important;
@@ -160,7 +162,7 @@ body{
 .triangle-bottomleft {
 	border-bottom: 100px solid rgba(220, 20, 60, 0.6); 
     border-right: 100px solid transparent;	
-    position: absolute;
+    position: absolute !important;
     zoom: 6.65;
     margin-top: -15px;
 }
@@ -170,34 +172,82 @@ body{
         font-size: 50px;
         letter-spacing: 0em;
     }
-
     .triangle-bottomleft{
         zoom: 3;
     }
- 
+    .triangle-bottomright {
+        zoom: 3; 
+    }
     .foto-men{
-       zoom: -3;
+        height: 395px;
+        position:absolute;
     }
-
-    .headphone{
-        width: 1%;
-    }
-
     .img-center{
         zoom: .3;
     }
-
-    .d8{
-       zoom: .1;
-       margin-right: 80px !important;
+    .d8 {
+        margin-top: -333px;
+    }
+    .form-control-lg{
+        width: 200px !important;
     }
 
-    .form-email{
-        zoom: .4;
+    .text-titlle{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .triangle-bottomleft {
+        zoom: 4.8;
+    }
+    .img-center{
+        zoom: .3;
+    }
+    .form-control-lg{
+        width: 350px !important;
+    }
+    .d8 {
+        margin-top: -333px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1200px){
+    .d8 {
+        margin-top: -102px;
     }
 
-    .form-control {
-        width: auto !important;
+}
+
+@media (min-width: 760px) and (max-width: 990px){
+    .triangle-bottomleft {
+        zoom: 7.5; 
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1140px){
+    .form-control-lg{
+        width: 800px !important;
     }
 
+    .triangle-bottomleft {
+        zoom: 5; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+    .triangle-bottomright {
+        zoom: 5.4; 
+    }
+    .foto-men{
+        height: 710px;
+        position:absolute;
+    }
+}
+
+@media (min-width: 1140px) and (max-width: 1450px){
+    .triangle-bottomleft{
+        zoom: 5.5;
+    }
 }
