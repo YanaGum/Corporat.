@@ -64,7 +64,7 @@ body {
 
 .header {
     background: url('https://images.unsplash.com/photo-1586397147675-6c9bbfdf5420?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80') no-repeat center;
-    z-index: 1000;
+    z-index: 200;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
@@ -268,5 +268,11 @@ body {
 @media (min-width: 1140px) and (max-width: 1450px) {
     .triangle-bottomleft {
         zoom: 5.5;
+    }
+}
+
+@media (min-width: 1400px){
+    .header{
+        height: 60vh;
     }
 }
