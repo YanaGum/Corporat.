@@ -1,5 +1,5 @@
 .about {
-    background-image: url('https://i.imgur.com/dirA5BG.jpg');
+    background-image: url('img/dirA5BG.jpg');
 
 }
 
@@ -109,9 +109,8 @@ body {
     color: rgb(39, 39, 39);
     font-size: 15px;
     font-weight: 100;
-    margin-top: 17px;
+    margin-top: 5px;
 }
-
 
 .play-icon {
     color: rgb(65, 65, 65) !important;
@@ -128,7 +127,7 @@ body {
     font-weight: 300;
     font-size: 65px;
     color: rgb(25, 44, 44);
-    padding-top: 17%;
+    padding-top: 13%;
     letter-spacing: .05em;
 }
 
@@ -197,13 +196,13 @@ body {
     .input-group {
         flex-wrap: inherit !important;
     }
-    
+
     .form-control-lg {
         width: 200px !important;
     }
 
     .text-titlle {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 500;
     }
 }
@@ -260,7 +259,7 @@ body {
         position: absolute;
     }
 
-    .d8{
+    .d8 {
         margin-left: 300px !important;
     }
 }
@@ -271,8 +270,128 @@ body {
     }
 }
 
-@media (min-width: 1400px){
-    .header{
+@media (min-width: 1400px) {
+    .header {
         height: 55vh;
     }
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.absolute-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.fog {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+
+.fog__container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.fog__img {
+    position: absolute;
+    height: 100vh;
+    width: 300vw;
+}
+
+.fog__img--first {
+    background: url("img/fog-1.png") repeat-x;
+    background-size: contain;
+    background-position: center;
+    -webkit-animation: marquee 60s linear infinite;
+    animation: marquee 60s linear infinite;
+}
+
+.fog__img--second {
+    background: url("img/fog-2.png") repeat-x;
+    background-size: contain;
+    background-position: center;
+    -webkit-animation: marquee 40s linear infinite;
+    animation: marquee 40s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(-200vw, 0, 0);
+        transform: translate3d(-200vw, 0, 0);
+    }
+}
+
+@keyframes marquee {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(-200vw, 0, 0);
+        transform: translate3d(-200vw, 0, 0);
+    }
+}
+
+.wrapper {
+    font-weight: 300;
+    font-size: 50px;
+    color: rgb(25, 44, 44);
+    padding-top: 13%;
+    letter-spacing: .05em;
+    padding-top: 22%;
+    width: 100%;
+    left: 5%;
+
+}
+
+.wave {
+    color: #999999;
+    animation: 2s color infinite;
+}
+
+@keyframes color {
+    50% {
+        color: #302f2f;
+    }
+}
+
+
+.contentt span{
+    display: inline-block;
+    padding: 0 4px;
+    -webkit-transform: scale(1);
+    color: transparent;
+    -webkit-transition: -webkit-transform 2s ease, color 2s ease; 
+}
+.contentt:hover span{
+    -webkit-transform: scale(2); 
+    color: black
 }
